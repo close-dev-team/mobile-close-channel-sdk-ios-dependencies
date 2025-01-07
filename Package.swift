@@ -16,12 +16,12 @@ let package = Package(
     ],
     dependencies: [
         .package(url: "https://github.com/stephencelis/SQLite.swift", from: "0.15.3"),
-        .package(url: "https://github.com/socketio/socket.io-client-swift", from: "16.1.0"),
-        .package(url: "https://github.com/Ekhoo/Device.git", from: "3.6.0"),
+        .package(url: "https://github.com/socketio/socket.io-client-swift", from: "16.1.1"),
+        .package(url: "https://github.com/Ekhoo/Device.git", from: "3.7.0"),
         .package(url: "https://github.com/SnapKit/SnapKit", from: "5.7.1"),
         .package(url: "https://github.com/adamcichy/SwiftySound", from: "1.3.0"),
         .package(url: "https://github.com/cezheng/Fuzi", from: "3.1.3"),
-        .package(url: "https://github.com/krzyzanowskim/CryptoSwift", from: "1.8.3")
+        .package(url: "https://github.com/krzyzanowskim/CryptoSwift", from: "1.8.4")
     ],
     targets: [
         .target(
